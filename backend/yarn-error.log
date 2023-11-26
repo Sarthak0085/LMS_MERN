@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install --legacy-peer-deps
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-20\bin;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\MongoDB\mongosh-1.10.1-win32-x64\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\msi\.console-ninja\.bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\msi\AppData\Local\Microsoft\WindowsApps;C:\Users\msi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\msi\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\msi\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk-20\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: UNKNOWN: unknown error, scandir 'D:\lms-mern\backend\node_modules\@types\.express-serve-static-core-wMYq5CAT'
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "This contains the backend apis of lms ",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "ts-node-dev --respawn --transpile-only server.ts"
+    },
+    "author": "Sarthak",
+    "license": "ISC",
+    "dependencies": {
+      "@types/bcryptjs": "^2.4.6",
+      "@types/cookie-parser": "^1.4.6",
+      "@types/cors": "^2.8.16",
+      "@types/jsonwebtoken": "^9.0.5",
+      "@types/node": "^20.9.0",
+      "bcryptjs": "^2.4.3",
+      "cloudinary": "^1.41.0",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "ejs": "^3.1.9",
+      "express": "^4.18.2",
+      "ioredis": "^5.3.2",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^8.0.0",
+      "morgan": "^1.10.0",
+      "nodemailer": "^6.9.7",
+      "ts-node": "^10.9.1",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+      "@types/ejs": "^3.1.5",
+      "@types/morgan": "^1.9.9",
+      "@types/nodemailer": "^6.4.14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
